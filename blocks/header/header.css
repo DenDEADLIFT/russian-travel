@@ -1,35 +1,38 @@
 .header {
     margin: 28px 48px 0 48px;
+    /*margin: 28px auto 0 auto;*/
     display: grid;
     grid-template-columns: 1fr max-content max-content;
     grid-template-rows: max-content;
     align-items: center;
     gap: 18px;
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 @media all and (max-width: 1280px) {
     .header {
+        
         max-width: 1184px;
     }
 }
 
 @media all and (max-width: 1024px) {
     .header {
+        
         max-width: 928px;
     }
 }
 
 @media all and (max-width: 768px) {
     .header {
-        margin: 28px 24px auto 24px;
+        margin: 28px 24px 0 24px;
         max-width: 720px;
     }    
 }
 
 @media all and (max-width: 320px) {
     .header {
-        margin: 16px 16px auto 16px;
-        max-width: 288px;
+        margin: 16px 16px 0 16px;
+        min-width: 288px;
     }    
 }

@@ -5,11 +5,16 @@
     line-height: 28px;
     text-decoration: none;
     color: #ffffff;
+    justify-self: end;
 }
 
-.header__lang-link:hover {
-    color: #176BFF;
-    text-decoration: underline;
+
+
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .header__lang-link:hover {
+        color: #176BFF;
+        text-decoration: underline;
+    }    
 }
 
 @media all and (max-width: 320px) {
