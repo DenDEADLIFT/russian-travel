@@ -1,7 +1,10 @@
 .lead__title {
-    display: block;
-    max-width: 720px;
-    margin: 56px auto 0 auto;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    /*object-fit: fill;*/
+    width: 70%;
+    margin-top: 56px;
+    margin-bottom: 0;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -12,19 +15,21 @@
 @media all and (max-width: 1024px) {
     .lead__title {
         margin-top: 48px;
+        width: 70%;
     }    
 }
 
 @media all and (max-width: 768px) {
     .lead__title {
         margin-top: 48px;
+        width: 94%;
     }    
 }
 
 @media all and (max-width: 320px) {
     .lead__title {
         margin-top: 48px;
-        max-width: 288px;
+        width: 90%;
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;
