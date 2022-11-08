@@ -12,35 +12,38 @@
     text-rendering: optimizeLegibility;
 }
 
-.page {
-    @media screen and (max-width: 1440px) {
-        .page {
-            max-width: 1440px;
-        }
+@media screen and (max-width: 1600px) {
+    .page {
+        max-width: 1600px;
     }
-    
-    @media screen and (max-width: 1280px) {
-        .page {
-            width: 100%;
-        }
+}
+
+/*@media screen and (max-width: 1440px) {
+    .page {
+        max-width: 1440px;
     }
-    
-    @media screen and (max-width: 1024px) {
-        .page {
-            width: 100%;
-        }
+}*/
+ 
+@media screen and (max-width: 1280px) {
+    .page {
+        max-width: 100%;
     }
-    
-    @media all and (max-width: 768px) {
-        .page {
-            width: 100%;
-        }    
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 100%;
     }
-    
-    @media all and (max-width: 320px) {
-        .page {
-            max-width: 100%;
-        }    
-    }
-    
+}
+
+@media all and (max-width: 768px) {
+    .page {
+        max-width: 100%;
+    }    
+}
+
+@media all and (max-width: 320px) {
+    .page {
+        max-width: 320px;
+    }    
 }
