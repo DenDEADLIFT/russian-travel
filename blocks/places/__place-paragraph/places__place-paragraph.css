@@ -27,6 +27,8 @@
 
 @media all and (max-width: 320px) {
     .places__place-paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
         max-width: 288px;
     }    
 }

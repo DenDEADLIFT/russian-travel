@@ -4,14 +4,13 @@
     display: grid;
     grid-template-columns: 1fr max-content max-content;
     gap: 18px;
-     align-items: center;
+    align-items: center;
 }
 
 @media all and (max-width: 1280px) {
     .header {
         margin-left: 48px;
         margin-right: 48px;
-        max-width: 1184px;
     }
 }
 
