@@ -12,15 +12,15 @@
     .places__place-image {
         max-width: 440px;
     }    
-}
+}*/
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 350px) {
     .places__place-image {
-        max-width: 340px;
+        max-width: 100%;
     }    
 }
 
-@media all and (max-width: 320px) {
+/*@media all and (max-width: 320px) {
     .places__place-image {
         max-width: 100%;
     }    

@@ -9,20 +9,13 @@
     color: #ffffff;
 }
 
-/*@media all and (max-width: 1280px) {
-    .cover__title {
-    }
-}
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 350px) {
     .cover__title {
-    }
-}
-
-@media all and (max-width: 768px) {
-    .cover__title {
+        max-width: 295px;
+        font-size: 34px;
     }    
-}*/
+}
 
 @media all and (max-width: 320px) {
     .cover__title {

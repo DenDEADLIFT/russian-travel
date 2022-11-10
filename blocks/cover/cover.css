@@ -30,6 +30,18 @@
     }    
 }
 
+@media all and (max-width: 370px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
 @media all and (max-width: 320px) {
     .cover {
         max-width: 100%;

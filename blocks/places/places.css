@@ -28,6 +28,23 @@
     }    
 }
 
+@media all and (max-width: 370px) {
+    .places {
+        margin-left: 12px;
+        margin-right: 12px;
+        max-width: 100%;
+    }    
+}
+
+@media all and (max-width: 350px) {
+    .places {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }    
+}
+
+
 @media all and (max-width: 320px) {
     .places {
         margin-left: 0;
