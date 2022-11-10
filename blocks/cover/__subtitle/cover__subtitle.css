@@ -9,11 +9,11 @@
     color: #ffffff;
 }
 
-@media screen and (min-width: 768px) and (max-width: 2000px) {
-    .cover__subtitlecover_overlay:hover {
-        z-index: 3;
-        color: #FFFFFF;
-    }    
+@media screen and (min-width: 768px) {
+    .cover__subtitle:hover {
+        -webkit-text-stroke: 1px #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }  
 }
 
 @media all and (max-width: 1024px) {
