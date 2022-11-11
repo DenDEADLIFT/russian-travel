@@ -7,10 +7,6 @@
   color: #ffffff;
 }
 
-.places:first-of-type {
-  margin-top: 0;
-}
-
 @media all and (max-width: 1024px) {
   .places {
     margin-left: 48px;

@@ -9,31 +9,35 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   .cover__title:hover {
     color: #ffffff;
   }
-}
+}*/
 
 @media all and (max-width: 1024px) {
   .cover__title {
     margin-top: 195px;
+    margin-left: 232px;
+    margin-right: 232px;
   }
 }
 
-@media all and (max-width: 830px) {
+/*@media all and (max-width: 830px) {
   .cover__title {
     margin-top: 115px;
   }
-}
+}*/
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 768px) {
   .cover__title {
-    margin-top: 100px;
+    margin-top: 115px;
+    margin-left: 104px;
+    margin-right: 104px;
   }
 }
 
-@media all and (max-width: 650px) {
+/*@media all and (max-width: 650px) {
   .cover__title {
     margin-top: 80px;
   }
@@ -51,11 +55,13 @@
     margin-top: 40px;
     font-size: 40px;
   }
-}
+}*/
 
 @media all and (max-width: 350px) {
   .cover__title {
     margin-top: 33px;
+    margin-left: 16px;
+    margin-right: 16px;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
