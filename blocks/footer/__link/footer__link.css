@@ -11,7 +11,6 @@
 
 @media screen and (min-width: 768px) {
   .footer__link:hover {
-    cursor: url(../../../images/pointer.png);
     opacity: 0.8;
     text-decoration: none;
   }

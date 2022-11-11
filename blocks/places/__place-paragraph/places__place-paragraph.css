@@ -1,5 +1,6 @@
 .places__place-paragraph {
   margin: 0 0 26px 0;
+  max-width: 100%;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

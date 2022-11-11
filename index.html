@@ -11,8 +11,10 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Лого в шапке">
-    <a class="header__lang-link header__lang-link_underline" href="#">Ru</a>
-    <a class="header__lang-link" href="#">En</a>
+    <ul class="header__lang">
+    <li><a class="header__lang-link header__lang-link_underline" href="#">Ru</a></li>
+    <li><a class="header__lang-link" href="#">En</a></li>
+  </ul>
   </header>
   <main>
     <section class="lead">
@@ -36,33 +38,32 @@
         наследия
         ЮНЕСКО 16<br>Природных заповедников 105<br>Аэропортов 241</p>
     </section>
-    <section class="photo-grid">
-      <figure class="photo-grid__item"><img src="./images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__image">
-      </figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва Тулси"
-          class="photo-grid__image"></figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__image">
-      </figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__image">
-      </figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-arisa.jpg" alt="Ариса" class="photo-grid__image">
-      </figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал"
-          class="photo-grid__image">
-      </figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус"
-          class="photo-grid__image">
-      </figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев"
-          class="photo-grid__image"></figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка 1"
-          class="photo-grid__image"></figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка 2"
-          class="photo-grid__image"></figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал 2"
-          class="photo-grid__image"></figure>
-      <figure class="photo-grid__item"><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__image">
-      </figure>
+    <section>
+      <ul class="photo-grid">
+        <li class="photo-grid__item"><img src="./images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__image">
+        </li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва Тулси"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__image">
+        </li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-arisa.jpg" alt="Ариса" class="photo-grid__image">
+        </li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__image">
+        </li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__image">
+        </li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка 1"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка 2"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал 2"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__image">
+        </li>
+      </ul>
     </section>
     <section class="places">
       <div class="places__place">
@@ -72,7 +73,7 @@
             href="http://park-kosa.ru">park-kosa.ru</a>
         </div>
         <img class="places__place-image" src="./images/place-kosa.jpg" alt="Куршская коса">
-        <div>
+        <div class="places__paragraph-box">
           <p class="places__place-paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
             горизонта
             — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -153,22 +154,22 @@
         </div>
       </div>
     </section>
-    <section class="cover cover_overlay">
-      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala"><img class="cover__image"
-          src="./images/cover-trains.jpg" alt="Фоновое изображение"></a>
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-      </p>
+    <section class="cover">
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+        </p>
+      </a>
     </section>
   </main>
   <footer class="footer">
-    <ul class="footer__menu">
-      <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-      <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-      <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-      <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-      <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-    </ul>
+    <nav class="footer__menu">
+      <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+    </nav>
     <p class="footer__copyright">&copy; 2020. Иванов Денис</p>
   </footer>
 </body>

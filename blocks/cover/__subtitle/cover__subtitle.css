@@ -1,6 +1,7 @@
 .cover__subtitle {
-  position: absolute;
-  margin-top: 429px;
+  position: relative;
+  margin-top: 32px;
+  margin-bottom: 245px;
   max-width: 360px;
   font-weight: 400;
   font-size: 18px;
@@ -15,33 +16,9 @@
   }
 }
 
-@media all and (max-width: 830px) {
-  .cover__subtitle {
-    margin-top: 299px;
-  }
-}
-
-@media all and (max-width: 750px) {
+@media all and (max-width: 768px) {
   .cover__subtitle {
     margin-top: 284px;
-  }
-}
-
-@media all and (max-width: 650px) {
-  .cover__subtitle {
-    margin-top: 260px;
-  }
-}
-
-@media all and (max-width: 550px) {
-  .cover__subtitle {
-    margin-top: 210px;
-  }
-}
-
-@media all and (max-width: 450px) {
-  .cover__subtitle {
-    margin-top: 180px;
   }
 }
 

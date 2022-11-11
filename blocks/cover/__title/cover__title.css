@@ -1,13 +1,18 @@
 .cover__title {
-  position: absolute;
-  margin-top: 245px;
-  margin-bottom: 0;
+  position: relative;
+  margin: 245px 312px 0 312px;
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__title:hover {
+    color: #ffffff;
+  }
 }
 
 @media all and (max-width: 1024px) {
