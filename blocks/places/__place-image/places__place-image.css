@@ -1,33 +1,3 @@
 .places__place-image {
-    max-width: 100%;
+  max-width: 460px;
 }
-
-/*@media all and (max-width: 1280px) {
-    .places__place-image {
-        max-width: 460px;
-    }    
-}
-
-@media all and (max-width: 1220px) {
-    .places__place-image {
-        max-width: 455px;
-    }    
-}
-
-@media all and (max-width: 1024px) {
-    .places__place-image {
-        max-width: 440px;
-    }    
-}
-
-@media all and (max-width: 350px) {
-    .places__place-image {
-        max-width: 100%;
-    }    
-}*/
-
-/*@media all and (max-width: 320px) {
-    .places__place-image {
-        max-width: 100%;
-    }    
-}*/

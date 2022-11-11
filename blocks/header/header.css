@@ -1,38 +1,38 @@
 .header {
-    margin: 28px auto 0 auto;
-    max-width: 1184px;
-    display: grid;
-    grid-template-columns: 1fr max-content max-content;
-    gap: 18px;
-    align-items: center;
+  margin: 28px auto 0 auto;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
+  gap: 18px;
+  align-items: center;
 }
 
 @media all and (max-width: 1280px) {
-    .header {
-        margin-left: 48px;
-        margin-right: 48px;
-    }
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media all and (max-width: 1024px) {
-    .header {
-        max-width: 928px;
-    }
+  .header {
+    max-width: 928px;
+  }
 }
 
 @media all and (max-width: 768px) {
-    .header {
-        margin-left: 24px;
-        margin-right: 24px;
-        max-width: 720px;
-    }    
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+    max-width: 720px;
+  }
 }
 
 @media all and (max-width: 320px) {
-    .header {
-        margin-top: 16px;
-        margin-left: 16px;
-        margin-right: 16px;
-        max-width: 288px;
-    }    
+  .header {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 288px;
+  }
 }

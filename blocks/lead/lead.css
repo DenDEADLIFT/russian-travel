@@ -1,31 +1,23 @@
 .lead {
-    margin: 56px auto 0 auto;
-    max-width: 984px;
-}
-
-
-
-@media all and (max-width: 1280px) {
-    .lead {
-        max-width: 984px;
-    }
+  margin: 56px auto 0 auto;
+  max-width: 984px;
 }
 
 @media all and (max-width: 1024px) {
-    .lead {
-        margin-top: 48px;
-        max-width: 928px;
-    }
+  .lead {
+    margin-top: 48px;
+    max-width: 928px;
+  }
 }
 
 @media all and (max-width: 768px) {
-    .lead {
-        max-width: 100vw;
-    }    
+  .lead {
+    max-width: 100vw;
+  }
 }
 
 @media all and (max-width: 320px) {
-    .lead {
-        max-width: 100vw;
-    }    
+  .lead {
+    max-width: 100vw;
+  }
 }

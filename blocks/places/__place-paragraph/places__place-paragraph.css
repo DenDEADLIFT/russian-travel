@@ -1,34 +1,29 @@
 .places__place-paragraph {
-    margin: 0 0 26px 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29.34px;
+  margin: 0 0 26px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
 }
 
 @media all and (max-width: 1280px) {
-    .places__place-paragraph {
-        max-width: 456px;
-    }    
-}
-
-@media all and (max-width: 1024px) {
-    .places__place-paragraph {
-        max-width: 456px;
-    }    
+  .places__place-paragraph {
+    max-width: 456px;
+  }
 }
 
 @media all and (max-width: 768px) {
-    .places__place-paragraph {
-        max-width: 352px;
-        font-size: 16px;
-        line-height: 26.08px;
-    }    
+  .places__place-paragraph {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
 }
 
 @media all and (max-width: 320px) {
-    .places__place-paragraph {
-        margin-left: 16px;
-        margin-right: 16px;
-        max-width: 288px;
-    }    
+  .places__place-paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 288px;
+  }
 }

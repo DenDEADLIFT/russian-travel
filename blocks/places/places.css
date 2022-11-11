@@ -1,55 +1,45 @@
 .places {
-    margin: 92px 68px 0 228px;
-    max-width: 984px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #ffffff;
+  margin: 90px 228px 0 80px;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
 }
 
 .places:first-of-type {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 @media all and (max-width: 1024px) {
-    .places {
-        margin-left: 48px;
-        margin-right: 48px;
-        max-width: 928px;
-    }    
+  .places {
+    margin-left: 48px;
+    margin-right: 48px;
+    max-width: 928px;
+  }
 }
 
 @media all and (max-width: 768px) {
-    .places {
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-top: 88px;
-        max-width: 720px;
-    }    
+  .places {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 88px;
+    max-width: 720px;
+  }
 }
 
-@media all and (max-width: 370px) {
-    .places {
-        margin-left: 12px;
-        margin-right: 12px;
-        max-width: 100%;
-    }    
+@media all and (max-width: 430px) {
+  .places {
+    margin-left: 12px;
+    margin-right: 12px;
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 350px) {
-    .places {
-        margin-left: 0;
-        margin-right: 0;
-        max-width: 100%;
-    }    
-}
-
-
-@media all and (max-width: 320px) {
-    .places {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 64px;
-        max-width: 100%;
-    }    
+  .places {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 64px;
+  }
 }

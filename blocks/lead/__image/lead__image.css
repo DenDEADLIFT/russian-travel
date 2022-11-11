@@ -1,23 +1,22 @@
 .lead__image {
-    margin: 64px auto 0 auto;
-    max-width: 100%;
+  margin: 64px auto 0 auto;
+  max-width: 100%;
 }
 
 @media all and (max-width: 1024px) {
-    .lead__image {
-        margin-top: 56px;
-    }
+  .lead__image {
+    margin-top: 56px;
+  }
 }
 
 @media all and (max-width: 768px) {
-    .lead__image {
-        margin-top: 64px;
-    }    
+  .lead__image {
+    margin-top: 64px;
+  }
 }
 
 @media all and (max-width: 320px) {
-    .lead__image {
-        margin-top: 40px;
-        max-width: 100vw;
-    }    
+  .lead__image {
+    margin-top: 40px;
+  }
 }

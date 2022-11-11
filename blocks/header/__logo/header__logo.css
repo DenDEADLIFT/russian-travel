@@ -1,11 +1,11 @@
 .header__logo {
-    margin: 0;
-    max-width: 176px;
-    justify-self: start;
+  margin: 0;
+  max-width: 176px;
+  justify-self: start;
 }
 
 @media all and (max-width: 320px) {
-    .header__logo {
-        max-width: 142px;
-    }    
+  .header__logo {
+    max-width: 142px;
+  }
 }
