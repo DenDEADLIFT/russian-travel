@@ -31,11 +31,11 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 370px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 64px;
     max-width: 288px;
     gap: 9px;

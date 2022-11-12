@@ -1,5 +1,7 @@
 .places__place-image {
   max-width: 460px;
+  align-self: flex-start;
+  justify-self: stretch;
 }
 
 @media all and (max-width: 1024px) {
@@ -8,26 +10,26 @@
   }
 }
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 990px) {
   .places__place-image {
     max-width: 400px;
   }
 }
 
-@media all and (max-width: 880px) {
-  .places__place-image {
-    max-width: 360px;
-  }
-}
-
-@media all and (max-width: 800px) {
+@media all and (max-width: 910px) {
   .places__place-image {
     max-width: 340px;
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 810px) {
   .places__place-image {
-    max-width: 100%;
+    max-width: 330px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .places__place-image {
+    max-width: 320px;
   }
 }

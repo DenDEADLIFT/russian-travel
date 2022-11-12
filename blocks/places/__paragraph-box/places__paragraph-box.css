@@ -3,3 +3,9 @@
   padding: 0;
   max-width: 484px;
 }
+
+@media all and (max-width: 400px) {
+  .places__paragraph-box {
+    max-width: 320px;
+  }
+}
