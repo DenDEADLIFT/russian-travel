@@ -1,5 +1,5 @@
 .places {
-  margin: 95px auto 0 68px;
+  margin: 88px auto 0 68px;
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,6 @@
   .places {
     margin-left: 0;
     margin-right: 0;
-    margin-top: 64px;
+    margin-top: 57px;
   }
 }

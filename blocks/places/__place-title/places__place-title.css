@@ -13,6 +13,14 @@
   }
 }
 
+@media all and (max-width: 900px) {
+  .places__place-title {
+    max-width: 400px;
+    font-size: 52px;
+    line-height: 56px;
+  }
+}
+
 @media all and (max-width: 768px) {
   .places__place-title {
     max-width: 340px;

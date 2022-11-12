@@ -8,7 +8,19 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 960px) {
+  .places__place-image {
+    max-width: 400px;
+  }
+}
+
+@media all and (max-width: 880px) {
+  .places__place-image {
+    max-width: 360px;
+  }
+}
+
+@media all and (max-width: 800px) {
   .places__place-image {
     max-width: 340px;
   }

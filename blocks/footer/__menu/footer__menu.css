@@ -5,10 +5,22 @@
   align-items: center;
 }
 
+@media all and (max-width: 1024px) {
+  .footer__menu {
+    gap: 19px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer__menu {
+    gap: 19px;
+  }
+}
+
 @media all and (max-width: 550px) {
   .footer__menu {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
-    gap: 32px;
+    gap: 33px;
   }
 }

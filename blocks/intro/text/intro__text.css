@@ -6,3 +6,9 @@
   font-size: 16px;
   line-height: 26.08px;
 }
+
+@media all and (max-width: 1024px) {
+  .intro__text {
+    margin-top: 39px;
+  }
+}
