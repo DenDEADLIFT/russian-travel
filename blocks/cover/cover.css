@@ -14,7 +14,7 @@
 
 .cover::before {
   position: absolute;
-  content: "drt";
+  content: "";
   background-color: #2A2C2F;
   opacity: 0.3;
   width: 100%;
