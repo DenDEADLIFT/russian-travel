@@ -11,7 +11,6 @@
 
 @media all and (max-width: 1024px) {
   .cover__subtitle {
-    max-width: 360px;
     margin-bottom: 195px;
   }
 }

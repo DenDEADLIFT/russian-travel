@@ -11,8 +11,6 @@
   align-self: flex-end;
 }
 
-
-
 @media all and (max-width: 768px) {
   .place-website {
     max-width: 352px;
