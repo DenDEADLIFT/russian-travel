@@ -8,12 +8,6 @@
   text-transform: uppercase;
 }
 
-@media all and (max-width: 1024px) {
-  .place-website__url-heading {
-    line-height: 12px;
-  }
-}
-
 @media all and (max-width: 330px) {
   .place-website__url-heading {
     margin-left: 16px;

@@ -1,7 +1,6 @@
 .places__title {
   margin: 0;
   font-style: normal;
-  max-width: 460px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -33,7 +32,6 @@
   .places__title {
     font-size: 38px;
     max-width: 320px;
-
   }
 }
 
