@@ -1,7 +1,13 @@
 .places__paragraph-box {
-  margin: 0;
+  margin: 0 auto 0 0;
   padding: 0;
-  max-width: 484px;
+  max-width: 100%;
+}
+
+@media all and (max-width: 720px) {
+  .places__paragraph-box {
+    max-width: 320px;
+  }
 }
 
 @media all and (max-width: 400px) {

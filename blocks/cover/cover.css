@@ -38,7 +38,7 @@
 
 @media all and (max-width: 768px) {
   .cover {
-    margin-top: 58px;
+    margin-top: 90px;
     min-height: 480px;
   }
 }
@@ -53,6 +53,6 @@
 @media all and (max-width: 320px) {
   .cover {
     min-height: 200px;
-    margin-top: 50px;
+    margin-top: 66px;
   }
 }

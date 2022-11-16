@@ -28,13 +28,11 @@
 @media all and (max-width: 430px) {
   .places {
     max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
 @media all and (max-width: 350px) {
   .places {
-    margin-top: 66px;
+    margin-top: 60px;
   }
 }

@@ -3,7 +3,7 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 49px 33px;
+  gap: 49px 19px;
   align-items: flex-start;
 }
 
@@ -43,11 +43,12 @@
   .places__place {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     margin-bottom: 73px;
+    gap: 48px 16px;
   }
 }
 
 
-@media all and (max-width: 340px) {
+@media all and (max-width: 360px) {
   .places__place {
     grid-template-columns: 100%;
     margin-bottom: 50px;
