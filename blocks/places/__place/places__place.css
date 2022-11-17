@@ -47,11 +47,10 @@
   }
 }
 
-
 @media all and (max-width: 360px) {
   .places__place {
     grid-template-columns: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
     gap: 32px;
   }
 }
